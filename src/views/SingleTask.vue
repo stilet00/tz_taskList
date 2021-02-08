@@ -5,7 +5,7 @@
 
     ><div></div><div></div><div></div><div></div></div>
     <transition name="appear-from-right" appear>
-      <div class="task-container">
+      <div class="task-container" v-if="this.singleTask">
         <h3><i>Task name:</i></h3>
         <p><b>{{singleTask.title}}</b></p>
         <h2><i>What exactly to do:</i></h2>
