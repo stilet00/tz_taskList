@@ -1,24 +1,8 @@
-# test_task_list-of-posts
-
-## Project setup
+# To run this project:
+1. Clone from repository
+2. Install dependencies
+3. use terminal command: 
+``` 
+npm run serve
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+4. open 'localhost:8080'
